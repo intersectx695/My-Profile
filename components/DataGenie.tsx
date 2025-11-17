@@ -20,9 +20,19 @@ export default function DataGenie() {
             {datagenie.description}
           </p>
           {datagenie.mission && (
-            <p className="text-lg leading-relaxed text-gray-600 italic border-l-4 border-black pl-6">
+            <p className="text-lg leading-relaxed text-gray-600 italic border-l-4 border-black pl-6 mb-6">
               {datagenie.mission}
             </p>
+          )}
+          {datagenie.website && (
+            <a
+              href={datagenie.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-lg text-gray-700 hover:text-black underline transition-colors"
+            >
+              Visit DataGenie →
+            </a>
           )}
         </div>
 

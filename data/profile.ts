@@ -65,6 +65,7 @@ export interface ProfileData {
     description: string
     contributions: string[]
     mission?: string
+    website?: string
   }
 }
 
@@ -207,8 +208,9 @@ export const profileData: ProfileData = {
   ],
   datagenie: {
     role: 'Founding Engineer',
-    description: 'DataGenie is a cutting-edge data analytics platform that empowers businesses to make data-driven decisions. As a founding engineer, I played a pivotal role in building the core infrastructure and product from the ground up.',
+    description: 'DataGenie is a US-based AI-powered analytics platform that transforms how businesses make data-driven decisions. We\'ve built an autonomous insights engine that proactively discovers anomalies, trends, and opportunities across disparate data sources—eliminating the need for teams to know what questions to ask. Our platform connects to any data source, provides actionable insights in plain English through our Genie+ assistant, and recommends next best actions based on historical patterns. As a founding engineer, I played a pivotal role in building the core infrastructure and product from the ground up, helping create a solution that turns every team member into a decision maker.',
     mission: 'To democratize data analytics and make advanced insights accessible to businesses of all sizes.',
+    website: 'https://www.datagenie.ai/',
     contributions: [
       'Engineered low-latency analytics layer with 70% speed improvement',
       'Built ETL pipelines processing 10M+ records/day',
