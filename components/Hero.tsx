@@ -40,7 +40,7 @@ export default function Hero() {
             </p>
             
             <div className="mb-8">
-              <p className="text-lg leading-relaxed text-gray-600 mb-6">
+              <p className="text-lg leading-relaxed text-gray-600 mb-6 whitespace-pre-line">
                 {profileData.bio}
               </p>
             </div>

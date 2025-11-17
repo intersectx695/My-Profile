@@ -26,18 +26,6 @@ export default function DataGenie() {
           )}
         </div>
 
-        <div className="border-t border-gray-200 pt-12">
-          <p className="text-sm uppercase tracking-wider text-gray-500 mb-8">
-            Key Contributions
-          </p>
-          <div className="grid md:grid-cols-2 gap-8">
-            {datagenie.contributions.map((contribution, index) => (
-              <div key={index} className="text-gray-700 leading-relaxed">
-                {contribution}
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
